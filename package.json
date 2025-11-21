@@ -1,0 +1,23 @@
+{
+  "name": "projectonline",
+  "version": "1.0.0",
+  "description": "Full-stack web application with visitor tracking and admin panel",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "admin": "cd admin && npm start",
+    "install-backend": "cd backend && npm install",
+    "install-admin": "cd admin && npm install",
+    "install-all": "npm run install-backend && npm run install-admin"
+  },
+  "keywords": [
+    "fullstack",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "jwt",
+    "authentication"
+  ],
+  "author": "",
+  "license": "ISC"
+}
